@@ -7,7 +7,7 @@ import All from "./Components/All";
 import Career from "./Components/Career";
 
 function App() {
-  const API_URL = "http://localhost:3001/courses.json";
+  const API_URL = "https://krithik-113.github.io/react-router/courses.json";
   const [fsd, setFsd] = useState([]);
   const [ds, setDs] = useState([]);
   const [cs, setCs] = useState([]);
