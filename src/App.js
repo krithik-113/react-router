@@ -8,7 +8,7 @@ import All from "./Components/All";
 import Career from "./Components/Career";
 
 function App() {
-  const API_URL = 'https://ubiquitous-crisp-10eee2.netlify.app/courses.json';
+  const API_URL = `${process.env.PUBLIC_URL }/courses.json`;
   const [fsd, setFsd] = useState([]);
   const [ds, setDs] = useState([]);
   const [cs, setCs] = useState([]);
