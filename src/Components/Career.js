@@ -6,7 +6,12 @@ const Career = () => {
     <ul className="career">
       <div className="link">
         <Link to="/fsd">
-          <img src="../img/fsd.png" alt="pic" height={250} width={300} />
+          <img
+            src={process.env.PUBLIC_URL + "/img/fsd.png"}
+            alt="pic"
+            height={250}
+            width={300}
+          />
 
           <li>FULL STACK DEVELOPMENT</li>
         </Link>
@@ -14,14 +19,24 @@ const Career = () => {
 
       <div className="link">
         <Link to="/ds">
-          <img src="../img/ds.jpg" alt="pic" height={250} width={300} />
+          <img
+            src={process.env.PUBLIC_URL + "/img/ds.jpg"}
+            alt="pic"
+            height={250}
+            width={300}
+          />
           <li>DATA SCIENCE</li>
         </Link>
       </div>
 
       <div className="link">
         <Link to="/cs">
-          <img src="../img/cs.jpg" alt="pic" height={250} width={300} />
+          <img
+            src={process.env.PUBLIC_URL + "/img/cs.jpg"}
+            alt="pic"
+            height={250}
+            width={300}
+          />
           <li>CYBER SECURITY</li>
         </Link>
       </div>
@@ -30,3 +45,4 @@ const Career = () => {
 }
 
 export default Career
+
