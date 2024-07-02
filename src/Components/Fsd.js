@@ -6,7 +6,7 @@ const Fsd = ({data}) => {
     <div className="img">
       {data.map((val, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <img key={index} src={val.img} alt="pic" height={100} width={100} />
             <h1>{val.FSD}</h1>
           </div>
@@ -16,4 +16,4 @@ const Fsd = ({data}) => {
   );
 }
 
-export default Fsd
+export default Fsd   

@@ -4,6 +4,7 @@ import DataScience from "./Components/DataScience";
 import CyberSecurity from "./Components/CyberSecurity";
 import { Link, Routes, Route } from "react-router-dom";
 import All from "./Components/All";
+import Career from "./Components/Career";
 
 function App() {
   const API_URL = "http://localhost:3001/courses.json";
@@ -56,7 +57,7 @@ function App() {
         <Route path="/fsd" element={<Fsd data={fsd} />} />
         <Route path="/ds" element={<DataScience data={ds} />} />
         <Route path="/cs" element={<CyberSecurity data={cs} />} />
-        <Route path="/career" />
+        <Route path="/career" element={<Career />} />
       </Routes>
     </div>
   );
