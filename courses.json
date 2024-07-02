@@ -1,11 +1,11 @@
 {
   "fullStack": [
     {
-      "img": "../img/html.png",
+      "img": "./img/html.png",
       "FSD": "HTML"
     },
     {
-      "img": "../img/css.png",
+      "img": "./img/css.png",
       "FSD": "CSS"
     },
     {
