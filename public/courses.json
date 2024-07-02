@@ -1,5 +1,5 @@
 {
-  "courses": [
+  "fullStack": [
     {
       "img": "../img/html.png",
       "FSD": "HTML"
@@ -51,7 +51,7 @@
       "DS": "Julia"
     }
   ],
-  "cyberSecurity":[
+  "cyberSecurity": [
     {
       "img": "../img/c.png",
       "CS": "C and C++"

@@ -6,7 +6,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import All from "./Components/All";
 
 function App() {
-  const API_URL = "http://localhost:3000/courses.json";
+  const API_URL = "http://localhost:3001/courses.json";
   const [fsd, setFsd] = useState([]);
   const [ds, setDs] = useState([]);
   const [cs, setCs] = useState([]);
@@ -15,7 +15,7 @@ function App() {
       try {
         const response = await fetch(API_URL);
         const result = await response.json();
-        setFsd(result.courses);
+        setFsd(result.fullStack);
         setDs(result.dataScience);
         setCs(result.cyberSecurity);
       } catch (err) {
@@ -24,10 +24,10 @@ function App() {
     };
     (async () => await fetchData())();
   }, []);
-  console.log(ds);
+
   return (
     <div className="App">
-      <nav>
+      <nav className="nav">
         <ul>
           <Link to="/">
             <li>ALL</li>

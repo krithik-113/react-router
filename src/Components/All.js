@@ -10,7 +10,7 @@ const All = ({ fsd, ds, cs }) => {
     <div className="img" style={grid}>
       {fsd.map((val, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <img key={index} src={val.img} alt="pic" height={100} width={100} />
             <h1>{val.FSD}</h1>
           </div>
@@ -18,7 +18,7 @@ const All = ({ fsd, ds, cs }) => {
       })}
       {ds.map((val, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <img key={index} src={val.img} alt="pic" height={100} width={100} />
             <h1>{val.DS}</h1>
           </div>
@@ -26,7 +26,7 @@ const All = ({ fsd, ds, cs }) => {
       })}
       {cs.map((val, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <img key={index} src={val.img} alt="pic" height={100} width={100} />
             <h1>{val.CS}</h1>
           </div>

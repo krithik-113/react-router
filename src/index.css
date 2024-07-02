@@ -17,26 +17,28 @@ body {
 .App {
   gap: 100px;
   column-gap: 100px;
-  position: relative;
 
   nav {
-    padding-top: 70px;
     display: flex;
     justify-content: center;
     background-color: black;
     align-items: center;
-    padding-bottom: 5%;
+    /* height: 10%; */
     ul {
-      list-style: none;
-      list-style: none;
+      list-style-type: none;
+      padding-top: 70px;
       text-align: center;
-      background-color: black;
-      li {
-        display: inline;
-        margin: 0 50px;
-        font-size: 1.5rem;
-        color: whitesmoke;
-        font-weight: bold;
+      padding-bottom: 5%;
+      height: 100%;
+      a {
+        height: 100%;
+        li {
+          display: inline;
+          margin: 0 50px;
+          font-size: 1.5rem;
+          color: whitesmoke;
+          font-weight: bold;
+        }
       }
     }
   }
@@ -58,7 +60,7 @@ body {
   height: 200px;
   text-align: center;
   padding: 30px;
-  background:hsla(119, 78%, 45%, 0.776);
+  background: hsla(119, 78%, 45%, 0.776);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   h1 {
     font-size: 1.3rem;
@@ -72,45 +74,53 @@ li:focus,
 li:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: red;
+  background-color: whitesmoke;
 }
+li:visited{
+  color: darkblue;
+}
+ul a:hover{
+  li:hover{
+color: black;
+  }}
 
-
-@media (Max-width:600px){
-  html{
+@media (max-width: 600px) {
+  html {
     height: 610vh;
-    background-image: radial-gradient(hsl(240, 52%, 55%), rgb(68, 153, 68),rgb(194, 150, 68));
+    background-image: radial-gradient(
+      hsl(240, 52%, 55%),
+      rgb(68, 153, 68),
+      rgb(194, 150, 68)
+    );
   }
-  .App{
+  .App {
     display: flex;
     justify-content: space-around;
   }
-  nav{
-    background-color: black;
-    height: 100vh;
-   text-align: center;
+  .nav {
+    display: block;
+    text-align: center;
     width: 50%;
     position: fixed;
+    height: 100%;
     left: 0;
   }
-  ul{
-    display: block;
-    height: 100%;
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    a{
-      display: block;
-      text-align: center;
-      li{
-      display: block;
-      text-align: center;
-    }
-    }
+  ul {
     
+     flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    a {
+      display: block;
+      text-align: center;
+      li {
+        display: block;
+        text-align: center;
+      }
+    }
   }
-  .img{
+  .img {
     display: block;
     flex-direction: column;
     justify-content: end;
@@ -118,9 +128,8 @@ li:hover {
     right: 60px;
     gap: 10px;
     overflow-y: scroll;
-    .box{
+    .box {
       margin: 15px auto;
     }
   }
 }
-
