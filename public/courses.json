@@ -1,83 +1,83 @@
 {
   "fullStack": [
     {
-      "img": "./img/html.png",
+      "img": "img/html.png",
       "FSD": "HTML"
     },
     {
-      "img": "./img/css.png",
+      "img": "img/css.png",
       "FSD": "CSS"
     },
     {
-      "img": "../img/js.png",
+      "img": "img/js.png",
       "FSD": "Javascript"
     },
     {
-      "img": "../img/react.png",
+      "img": "img/react.png",
       "FSD": "React"
     },
     {
-      "img": "../img/boot.png",
+      "img": "img/boot.png",
       "FSD": "Bootstrap"
     },
     {
-      "img": "../img/node.png",
+      "img": "img/node.png",
       "FSD": "Node.js"
     },
     {
-      "img": "../img/mango.jpg",
+      "img": "img/mango.jpg",
       "FSD": "Mango DB"
     }
   ],
   "dataScience": [
     {
-      "img": "../img/python.jpg",
+      "img": "img/python.jpg",
       "DS": "Python"
     },
     {
-      "img": "../img/sql.png",
+      "img": "img/sql.png",
       "DS": "SQL"
     },
     {
-      "img": "../img/r.jpg",
+      "img": "img/r.jpg",
       "DS": "R"
     },
     {
-      "img": "../img/vba.jpg",
+      "img": "img/vba.jpg",
       "DS": "VBA"
     },
     {
-      "img": "../img/julia.jpg",
+      "img": "img/julia.jpg",
       "DS": "Julia"
     }
   ],
   "cyberSecurity": [
     {
-      "img": "../img/c.png",
+      "img": "img/c.png",
       "CS": "C and C++"
     },
     {
-      "img": "../img/java.png",
+      "img": "img/java.png",
       "CS": "Java"
     },
     {
-      "img": "../img/bash.png",
+      "img": "img/bash.png",
       "CS": "Bash/Shell"
     },
     {
-      "img": "../img/php.png",
+      "img": "img/php.png",
       "CS": "PHP"
     },
     {
-      "img": "../img/ruby.png",
+      "img": "img/ruby.png",
       "CS": "Ruby"
     },
     {
-      "img": "../img/powershell.jpg",
+      "img": "img/powershell.jpg",
       "CS": "PowerShell"
     },
     {
-      "img": "../img/asm.jpg",
+      "img": "img/asm.jpg",
       "CS": "Assembly"
     }
   ]

@@ -5,7 +5,7 @@ const DataScience = ({data}) => {
     <div className="img">
       {data.map((val, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <img key={index} src={val.img} alt="pic" height={100} width={100} />
             <h1>{val.DS}</h1>
           </div>
